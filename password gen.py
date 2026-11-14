@@ -9,7 +9,7 @@ numbers="0123456789"
 
 #You can change the length of the password by changing the value of lenght and the characters by changing the variables lower, upper, symbols and numbers.
 all=lower+upper+symbols+numbers
-lenght=16
+lenght=16 #MAX VALUE: 74
 
 #.join makes junction of all the variables and sets the chosen lenght
 password="".join(random.sample(all,lenght))
